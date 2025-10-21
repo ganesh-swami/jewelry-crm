@@ -4,9 +4,9 @@
   "description": "Freelancer testing challenges for Jewelry CRM project",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node api.js && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node api.js && next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "test": "jest",
